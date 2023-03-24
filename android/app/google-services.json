@@ -1,64 +1,41 @@
 {
   "project_info": {
-    "project_number": "666295893364",
-    "firebase_url": "https://carm2-template.firebaseio.com",
-    "project_id": "carm2-template",
-    "storage_bucket": "carm2-template.appspot.com"
+    "project_number": "333524248908",
+    "project_id": "tadashikou-supermarket",
+    "storage_bucket": "tadashikou-supermarket.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:666295893364:android:f0acadf58883f0b9134021",
+        "mobilesdk_app_id": "1:333524248908:android:446358b857581e3a7047e9",
         "android_client_info": {
-          "package_name": "jp.co.wiznet.carm2.app"
+          "package_name": "com.tadashikou.supermarket"
         }
       },
       "oauth_client": [
         {
-          "client_id": "666295893364-acc6ck1nmfl1ehitbqqmvp6r6pe9se1o.apps.googleusercontent.com",
+          "client_id": "333524248908-c25022856v5oge3dq7ljdg0vvd3bvj7b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBdEJDRA10_0q3p__WZeyLN-_RUAzUF8fY"
+          "current_key": "AIzaSyBFYvgk3YD31-IOGFaPvjx0Yza_HC0EhMc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "666295893364-acc6ck1nmfl1ehitbqqmvp6r6pe9se1o.apps.googleusercontent.com",
+              "client_id": "333524248908-c25022856v5oge3dq7ljdg0vvd3bvj7b.apps.googleusercontent.com",
               "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:666295893364:android:cdb1ab967ce861c9",
-        "android_client_info": {
-          "package_name": "jp.co.wiznet.carm2.template"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "666295893364-acc6ck1nmfl1ehitbqqmvp6r6pe9se1o.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBdEJDRA10_0q3p__WZeyLN-_RUAzUF8fY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
+            },
             {
-              "client_id": "666295893364-acc6ck1nmfl1ehitbqqmvp6r6pe9se1o.apps.googleusercontent.com",
-              "client_type": 3
+              "client_id": "333524248908-ep2sk2bqqatngo0a8he2ch7205ahlpi3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tadashikou.supermarket"
+              }
             }
           ]
         }

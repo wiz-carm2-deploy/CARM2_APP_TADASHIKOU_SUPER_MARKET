@@ -9,10 +9,9 @@ void main() {
   runApp(Carm2Base(
     configuration: Carm2Configuration(
       appSettings: AppSettings(
-        appId: 3,
-        appName: 'CARM2 デモ',
-        backendBaseUrl:
-            'http://dev005.carm2-app.wiz-services.com/CARM2CMS/client/',
+        appId: 4,
+        appName: 'スーパーマーケットアプリ',
+        backendBaseUrl: 'https://carm2-app.tdsku.com/CARM2CMS/client/',
         apiTimeoutDuration: const Duration(seconds: 30),
         useDummyData: false,
         dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
@@ -53,7 +52,8 @@ class Carm2Colors {
     800: Color(0xFFA3A3A3),
     900: Color(0xFF949494),
   });
-  static const int _carm2colorsPrimaryValue = 0xFFBABABA;
+  // static const int _carm2colorsPrimaryValue = 0xFFBABABA;
+  static const int _carm2colorsPrimaryValue = 0xFF26A69A;
 
   static const MaterialColor carm2colorsAccent =
       MaterialColor(_carm2colorsAccentValue, <int, Color>{
@@ -76,28 +76,41 @@ class SplashScreen extends StatelessWidget {
         body: Stack(
           children: <Widget>[
             Container(
-              constraints: const BoxConstraints.expand(),
               child: Center(
                 child: Container(
-                  padding: const EdgeInsets.all(40.0),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Image.asset(
-                        'assets/splash/carm2_icon.png',
-                      ),
-                      Text(
-                        'CARM2 デモ',
-                        style: TextStyle(
-                          fontSize: 22.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
+                  constraints: BoxConstraints.expand(
+                    width: 150,
+                    height: 150,
+                  ),
+                  child: Image.asset(
+                    'assets/splash/top.png',
                   ),
                 ),
               ),
             ),
+            // Container(
+            //   constraints: const BoxConstraints.expand(),
+            //   child: Center(
+            //     child: Container(
+            //       padding: const EdgeInsets.all(40.0),
+            //       child: Column(
+            //         mainAxisSize: MainAxisSize.min,
+            //         children: [
+            //           Image.asset(
+            //             'assets/splash/top.png',
+            //           ),
+            //           Text(
+            //             'スーパーマーケット用アプリ(TKW)',
+            //             style: TextStyle(
+            //               fontSize: 22.0,
+            //               fontWeight: FontWeight.bold,
+            //             ),
+            //           ),
+            //         ],
+            //       ),
+            //     ),
+            //   ),
+            // ),
             Align(
               alignment: Alignment.bottomRight,
               child: Padding(
@@ -105,7 +118,7 @@ class SplashScreen extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Text('テスト環境'),
+                    // const Text('テスト環境'),
                     AppVersionWidget(),
                   ],
                 ),

@@ -36,10 +36,10 @@ dependencies:
 
   # CARM2 base plugin
   carm2_base:
-#    path: "../CARM2_APP/"
+  #  path: "../CARM2_APP/"
     git:
       url: "https://github.com/wiz-develop/CARM2_APP.git"
-      ref: "feat/unity-2"
+      ref: "unity-2_shinko-ad"
 
 # ARプラグインを外す対応
 # dependency_overrides:
@@ -61,15 +61,15 @@ dev_dependencies:
     sdk: flutter
 
   flutter_launcher_icons: "0.9.2"
- 
+
 # アプリアイコンの作成コマンド
 # >flutter pub get
 # >flutter pub run flutter_launcher_icons:main
 flutter_icons:
-  android: true 
+  android: true
   ios: true
-  image_path: "assets/icon/carm2_icon.png"
-  adaptive_icon_foreground: "assets/icon/carm2_icon_adaptive.png"
+  image_path: "assets/icon/top.png"
+  adaptive_icon_foreground: "assets/icon/top.png"
   adaptive_icon_background: "#FFFFFF"
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -93,8 +93,9 @@ flutter:
   # asset files
   assets:
    - assets/
+   - assets/icon/
    - assets/splash/
-   - test_resources/
+   - assets/googlemap/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

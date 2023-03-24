@@ -9,7 +9,7 @@
    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
    <application
-        android:label="CARM2 デモ"
+        android:label="スーパーマーケットアプリ"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true">
@@ -57,7 +57,7 @@
              android:authoritiesの.flutter_inappwebview〜前にアプリのパッケージ名を入れる -->
         <provider
             android:name="com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider"
-            android:authorities="com.example.carm2_app_project.flutter_inappwebview.fileprovider"
+            android:authorities="com.tadashikou.supermarket.flutter_inappwebview.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
